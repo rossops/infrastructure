@@ -5,3 +5,6 @@ A very basic docker based application that devs can use to learn how helm, Terra
 
 ### kubernetes (infra/)
 This will create a kube cluster with all the required modules and aws resources. To create a new cluster, define a new tfvars in infra/workspaces. When provisioning this cluster in spacelift, simply add the TF_CLI_ARGS variable and set it to -var-file="workspaces/__yourfile__.tfvars".
+
+### aws-config
+Modules and rulesets for aws-config that are represented in Terraform. 
