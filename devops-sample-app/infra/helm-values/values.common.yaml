@@ -1,0 +1,18 @@
+image:
+  repository: xxxxxxxxxxx.dkr.ecr.us-east-1.amazonaws.com/devops-sample-app/devops-sample-app
+
+service:
+  internalPort: 8000
+  healthcheck: /healthcheck
+  periodSeconds: 30
+  timeoutSeconds: 5
+
+resources:
+  memory:
+    request: "128Mi"
+    limit: "256Mi"
+  cpu:
+    request: "200m"
+
+autoscaling:
+  enabled: false
