@@ -8,3 +8,6 @@ This will create a kube cluster with all the required modules and aws resources.
 
 ### aws-config
 Modules and rulesets for aws-config that are represented in Terraform. 
+
+### lambda 
+Various lambda scripts that i've written. 
